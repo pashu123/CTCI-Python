@@ -8,7 +8,7 @@
 
 def palindromeperm(originalstr:str) -> bool:
     '''Returns whether any permutation of the
-        string can be made to look like a palindrome'''
+        string can be made a palindrome'''
     
     count_list = [0]*26
     for i in originalstr:
