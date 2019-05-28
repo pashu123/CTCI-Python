@@ -44,13 +44,4 @@ class SinglyLinkedList:
         return '{'+  ", ".join(nodes) +'}'
 
 
-l = SinglyLinkedList()
-l.insert_head(2)
-l.insert_last(3)
-l.insert_head(5)
-l.insert_head(4)
-l.insert_last(6)
-
-print(l)
-
 
