@@ -43,5 +43,14 @@ class SinglyLinkedList:
             curr = curr.next
         return '{'+  ", ".join(nodes) +'}'
 
+    def __iter__(self):
+        '''Iterator for the for loop'''
+        curr = self.head
+        while curr:
+            yield curr
+            curr = curr.next
+
+
+
 
 
